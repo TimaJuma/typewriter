@@ -1,11 +1,7 @@
 const sentence = "hello there from lighthouse labs";
 
-// for (const char of sentence) {
-//   setTimeout(()=> {
-//     process.stdout.write(char);
-//   }, 1000)
-// }
 
+// takes any text and prints out  each character with deay of 100sec after each other in same line
 const textGifer = (text) => {
   interval = 0;
   for(const char of text) {
